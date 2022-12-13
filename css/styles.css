@@ -1,0 +1,24 @@
+/* Style description boxes*/
+.description-box {
+    background-color: lightgrey;
+}
+
+/* Override bs navbar settings */
+.navbar {
+    background-color: lightgray;
+}
+
+.navbar-nav .nav-item {
+    border-bottom: 1px solid black;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+}
+
+/* Set Navbar items to only be visible on xs devices*/
+@media (min-width: 576px) {
+   .visible-xs-only {
+    visibility: hidden;
+   }
+    }
